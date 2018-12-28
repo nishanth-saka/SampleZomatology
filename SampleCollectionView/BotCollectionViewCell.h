@@ -12,6 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BotCollectionViewCell : UICollectionViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *botImageView;
+@property (weak, nonatomic) IBOutlet UILabel *mainLabel;
+@property (weak, nonatomic) IBOutlet UILabel *subLabel;
+
+
 @end
 
 NS_ASSUME_NONNULL_END
